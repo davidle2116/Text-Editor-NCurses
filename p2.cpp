@@ -1,7 +1,6 @@
 // http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/windows.html
 // http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/attrib.html
 // http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/scanw.html
-// Worked with David Le
 #include <cstdlib>
 #include <ncurses.h>
 #include <string>
@@ -15,9 +14,7 @@
 using namespace std;
 
 unsigned int pos;
-int x3, y3;
-int i, lnCount;
-int row, col, h, w, x, y;
+int row,col,h,w,x,x3,y,y3,i,lnCount;
 bool isFileOpen = false;
 bool save = false;
 string s = "";
